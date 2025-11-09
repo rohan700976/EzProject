@@ -12,10 +12,7 @@ function Header() {
     };
 
     return (
-        <div
-            className="fixed top-0 left-0 w-full h-[90px] bg-[#FFFBFB59] 
-                       p-5 flex items-center justify-between overflow-hidden z-50 "
-        >
+        <div className="fixed top-0 left-0 w-full h-[90px] bg-[#FFFBFB59] p-5 flex items-center justify-between overflow-hidden z-50 ">
             <AnimatePresence mode="wait">
                 {!isShow ? (
                     <motion.div
@@ -30,22 +27,23 @@ function Header() {
                             <img src={logo1} alt="Logo" className="w-[124px] h-[48px]" />
                         </div>
 
-                        {/* Menu Icon on Right */}
+
                         <div
                             className="w-[50px] h-[50px] flex items-center justify-center cursor-pointer"
                             onClick={handleClick}
                         >
                             <img src={Menu} alt="Menu" />
                         </div>
+
                     </motion.div>
                 ) : (
                     <motion.div
                         key="animated-header"
                         className="w-full h-screen flex items-center justify-center cursor-pointer"
                         onClick={handleClick}
-                        initial={{ x: "100vw" }}  // Start from right
-                        animate={{ x: 0 }}        // Slide into view
-                        exit={{ x: "100vw" }}     // Slide out to right
+                        initial={{ x: "100vw" }}
+                        animate={{ x: 0 }}
+                        exit={{ x: "100vw" }}
                         transition={{ duration: 0.3, ease: "easeInOut" }}
                     >
                         <motion.img
