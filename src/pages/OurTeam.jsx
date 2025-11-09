@@ -1,10 +1,10 @@
 import React from "react";
 import textImg from "../assets/ourTeamImg/textImg.png";
 import indiaGate from "../assets/ourTeamImg/indiaGate.svg";
-import groupImg from "../assets/ourTeamImg/Group 2.svg";
-import vectorLeft from "../assets/ourTeamImg/vector.svg";
-import vectorFilmMakers from "../assets/ourTeamImg/vector (1).svg";
-import vectorArt from "../assets/ourTeamImg/vector (2).svg";
+import groupImg from "../assets/ourTeamImg/Group2.svg";
+import vectorLeft from "../assets/ourTeamImg/Vector.svg";
+import vectorFilmMakers from "../assets/ourTeamImg/Vector1.svg";
+import vectorArt from "../assets/ourTeamImg/Vector2.svg";
 
 function OurTeam() {
   return (
