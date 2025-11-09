@@ -5,7 +5,7 @@ import Brand3 from '../assets/brandingImg/Branding Vector 03.svg'
 import Brand4 from '../assets/brandingImg/Branding Vector 04.svg'
 import frameImg from '../assets/brandingImg/frameImg.png'
 import arrow from '../assets/FIlms/Arrow.svg'
-import vector from'../assets/FIlms/vector 5.png'
+import vector from'../assets/FIlms/Vector5.png'
 
 function Branding() {
   return (
