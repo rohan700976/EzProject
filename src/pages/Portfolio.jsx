@@ -8,67 +8,54 @@ import rightArrow from "../assets/portfolioImg/rightArrow.png";
 function Portfolio() {
   return (
     <div className="relative w-full min-h-screen bg-[#f8f5f2] overflow-hidden">
-      {/* Background Decorations */}
+
       <img
         src={cam}
         alt="camera"
-        className="absolute left-15 top-1/6 w-52 opacity-60"
+        className="absolute left-[3%] sm:left-[8%] lg:left-[15%] top-[10%] sm:top-[15%] lg:top-1/6 w-28 sm:w-40 lg:w-52 opacity-60 "
       />
       <img
         src={footerImg}
         alt="footer design"
-        className="absolute right-0 bottom-0 w-72  rotate-[23deg] opacity-60 pl-15"
+        className="absolute right-0 bottom-0 w-40 sm:w-56 lg:w-72 rotate-[23deg] opacity-60"
       />
 
-      {/* Section Header */}
-      <div className="text-center pt-20 font-[Halant]">
-        <h1 className="text-4xl text-gray-800 font-medium">
+
+      <div className="text-center pt-16 sm:pt-20  px-4">
+        <h1 className="text-2xl font-[Halant] sm:text-3xl md:text-4xl text-gray-800 font-medium">
           The Highlight Reel
         </h1>
-        <p className="text-lg mt-4 text-gray-600">
+        <p className="text-sm sm:text-base md:text-lg mt-3 text-gray-600 font-[Instrument_Sans]">
           Watch the magic we’ve captured.
         </p>
       </div>
 
-      {/* Video Section */}
-      <div className="relative flex justify-center items-center mt-12">
-        {/* Left Arrow */}
-        <div className="w-[80px] h-[305px] bg-[#FFFFFF] absolute left-105 p-3">
 
-        <img
-          src={leftArrow}
-          alt="left"
-          className="absolute left-4 w-10 cursor-pointer hover:scale-110 transition-transform top-22"
-        />
+      <div className="relative flex justify-center items-center mt-10 sm:mt-12">
+
+        <div className="w-[50px] md:ml-78 sm:w-[70px] md:w-[80px] h-[200px] sm:h-[260px] md:h-[305px] bg-[#FFFFFF] absolute left-[5%] sm:left-[10%] md:left-[105px] flex justify-center items-center shadow-md">
+          <img
+            src={leftArrow}
+            alt="left"
+            className="w-6 sm:w-8 md:w-10 cursor-pointer hover:scale-110 transition-transform"
+          />
         </div>
 
-        {/* Video Frame */}
-        <div className="relative w-[700px]">
-          {/* Film Strip Frame */}
-          {/* <div className="absolute inset-0 bg-[url('../assets/portfolioImg/filmstrip.png')] bg-contain bg-center bg-no-repeat"></div> */}
 
-          {/* Main Video */}
+        <div className="relative w-[85%] sm:w-[75%] md:w-[650px] lg:w-[700px]">
           <img
             src={videoImg}
             alt="highlight video"
             className="relative z-10 w-full rounded-md shadow-lg"
           />
-
-          {/* Play Button Overlay */}
-          {/* <button className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-red-600 hover:bg-red-700 text-white rounded-full w-16 h-16 flex items-center justify-center text-3xl shadow-lg">
-            ▶
-          </button> */}
         </div>
 
-        {/* Right Arrow */}
-        <div className="w-[80px] h-[305px] bg-white absolute right-106">
-
-        <img
-          src={rightArrow}
-          alt="right"
-          className="absolute right-3 w-10 cursor-pointer hover:scale-110 transition-transform top-22"
-        />
-
+        <div className="w-[50px] md:mr-78 sm:w-[70px] md:w-[80px]  h-[200px] sm:h-[260px] md:h-[305px] bg-[#FFFFFF] absolute right-[5%] sm:right-[10%] md:right-[106px] flex justify-center items-center shadow-md">
+          <img
+            src={rightArrow}
+            alt="right"
+            className="w-6 sm:w-8 md:w-10 cursor-pointer hover:scale-110 transition-transform"
+          />
         </div>
       </div>
     </div>

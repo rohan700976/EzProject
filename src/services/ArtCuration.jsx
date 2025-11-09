@@ -11,7 +11,7 @@ import vector from '../assets/FIlms/vector 5.png'
 function ArtCuration() {
     return (
         <div className="relative bg-[#FAF6F3] min-h-screen overflow-hidden px-10 py-10">
-            {/* Top Quote */}
+            
             <div className="text-center mt-10">
                 <h2 className="text-xl italic font-serif text-gray-800">
                     "V take art where it belongs, to the people.” - Vernita Verma
@@ -19,12 +19,11 @@ function ArtCuration() {
                 <img src={vector} alt="underline" className="mx-auto mt-2 w-1/2" />
             </div>
 
-            {/* Back Button */}
             <button className="absolute left-55 top-20 border border-[#FF6B3D] text-[#FF6B3D] px-4 py-1 rounded-full hover:bg-[#FF6B3D] hover:text-white transition">
                 &lt; Back
             </button>
 
-            {/* Main Content */}
+           
             <div className="flex flex-col lg:flex-row items-center justify-center gap-12 mt-20">
                 {/* Left Image Section */}
                 <div className="bg-white shadow-lg rounded-lg overflow-hidden">

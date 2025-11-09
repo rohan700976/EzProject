@@ -1,4 +1,5 @@
 import { useState } from 'react'
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './home/Header'
 import Hero from './home/Hero'
 import OurTeam from './pages/OurTeam'
@@ -9,6 +10,7 @@ import Contact from './pages/Contact'
 import FilmsProduction from './services/FilmsProduction'
 import Branding from './services/Branding'
 import ArtCuration from './services/ArtCuration'
+import ServiceWrapper from './services/ServiceWrapper'
 function App() {
 
 
@@ -18,12 +20,9 @@ function App() {
      <Hero/>
      <OurTeam/>
      <AboutUs/>
-     <Service/>
+     <ServiceWrapper/>
      <Portfolio/>
      <Contact/>
-     <FilmsProduction/>
-     <Branding/>
-     <ArtCuration/>
     </>
 
   )
