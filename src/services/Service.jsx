@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import vector5 from '../assets/servicesImg/vector 5.svg';
+import vector5 from '../assets/servicesImg/Vector 5.svg';
 import tape from '../assets/servicesImg/image 6.png';
 import serviceImage1 from '../assets/servicesImg/service1.png';
 import serviceImage2 from '../assets/servicesImg/service2.png';
