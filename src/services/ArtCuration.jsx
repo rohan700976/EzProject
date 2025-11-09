@@ -5,7 +5,7 @@ import art3 from '../assets/artImg/Art Curation Icons 03.svg'
 import art4 from '../assets/artImg/Art Curation Icons 04.svg'
 import frameImg from '../assets/artImg/frameImg.jpg'
 import arrow from '../assets/FIlms/Arrow.svg'
-import vector from '../assets/FIlms/vector 5.png'
+import vector from '../assets/FIlms/Vector5.png'
 
 
 function ArtCuration() {

@@ -4,7 +4,7 @@ import camera2 from "../assets/FIlms/Camera 02.svg";
 import camera3 from "../assets/FIlms/Camera 03.svg";
 import camera4 from "../assets/FIlms/Camera 04.svg";
 import frameImg from "../assets/FIlms/filmImg.png";
-import Vector from "../assets/FIlms/Vector 5.png";
+import Vector from "../assets/FIlms/Vector5.png";
 import arrow from "../assets/FIlms/Arrow.svg";
 
 function FilmsProduction({ onMouseLeave }) {
